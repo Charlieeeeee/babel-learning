@@ -1,0 +1,20 @@
+{
+    "presets": [
+      ["env", {
+        "targets": {
+          "browsers": ["IE >= 9"]
+        },
+        "useBuiltIns": "usage"
+      }]
+    ],
+    "plugins": [
+        "transform-decorators-legacy",
+        "array-includes",
+        ["transform-runtime", {
+          "helpers": true,
+          "polyfill": true,
+          "regenerator": true,
+          "moduleName": "babel-runtime"
+        }]
+      ]
+}
