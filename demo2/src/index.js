@@ -1,6 +1,6 @@
-console.log([1,2].includes(1))
+console.log([1, 2].includes(1))
 
-const readonly = (target,name,description)=>{
+const readonly = (target, name, description) => {
     console.log('this is read only')
     description.writable = false
     return
@@ -8,7 +8,7 @@ const readonly = (target,name,description)=>{
 
 class A {
     @readonly
-    myName(){
+    myName() {
         return 'charlie'
     }
 }
