@@ -1,5 +1,8 @@
 # ES6转ES5
 
+> node -v
+> 8.15.0
+
 1. 第一步
    - 全局安装babel-cli
     > npm install -g babel-cli
